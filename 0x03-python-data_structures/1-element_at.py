@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
     i = 0
+    j = 0
     for i in my_list:
-        if i == idx:
+        if j == idx:
+            print("Element at index {:d} is {:d}".format(idx, i))
             break
         else:
             i = i + 1
-    if i != idx:
+            j = j + 1
+    if j != idx:
         return None
-    else:
-        print("Element at index {:d} is {:d}".format(idx, i)
