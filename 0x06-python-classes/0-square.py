@@ -3,9 +3,10 @@
 This module defines a an empty class square
 """
 
-class Square:
 
+class Square:
     """
     This class defines a square
     """
+
     pass
